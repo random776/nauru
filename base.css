@@ -1,0 +1,14 @@
+body {
+  font-family: "游ゴシック Light", sans-serif;
+  background-color: rgb(40, 40, 56);
+  margin: 50px;
+  color: rgb(216, 216, 216);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.3rem;
+}
