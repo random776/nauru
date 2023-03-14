@@ -20,11 +20,12 @@ export function Base() {
     </>
   )
 }
-export default function App() {
+function App() {
   return (
-    arr.map((number) => (
+    <>
+    {arr.map((number) => (
       <>
-        {number < percentage && number % 10 !== 0 && <span key={number} style={{backgroundColor: "rgb(216, 216, 216)",
+      {number < percentage && number % 10 !== 0 && <span key={number} style={{backgroundColor: "rgb(216, 216, 216)",
       height: "30px",
       width: "30px",
       margin: "4px",
@@ -54,6 +55,9 @@ export default function App() {
       border: "3px solid white",
       display: "inline-block"}}></span><br/></>}
       </>
-    ))
+    ))}
+    </>
   )
 };
+
+export default App;
